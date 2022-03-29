@@ -4,11 +4,11 @@ Copy these files there. Remember, the .env file has your username and password f
 
 Then run:
 
-`docker-compose run --no-deps web rails new . --force --database=postgresql
+`docker-compose run --no-deps web rails new . --force --database=postgresql`
 
 This will set up your new Rails app.
 
-If you are running Docker on Linux, the files rails new created are owned by root. This happens because the container runs as the root user. If this is the case, change the ownership of the new files. Not Mac or Windows!
+If you are running Docker on Linux, the files rails new created are owned by root. This happens because the container runs as the root user. If this is the case, change the ownership of the new files. Not on Mac or Windows!
 
 `sudo chown -R $USER:$USER .`
 
