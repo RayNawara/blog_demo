@@ -1,5 +1,7 @@
 These are the files you need in a new directory, which should be named your project, when setting up a new project.
 
+`git clone git@github.com:RayNawara/Rails7-Docker.git .`
+
 Copy these files there. Remember, the .env file has your username and password for Postgresql.
 
 Then run:
