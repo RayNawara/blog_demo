@@ -2,7 +2,9 @@
   <p>
     <strong>Title:</strong>
     <%= post.title %>
+    <h4>posted by <%= link_to post.user.name, user_path(post.user) %><h4>
   </p>
+  <h6><%= pluralize(post.views, "View") %></h6>
 
   <p>
     <strong>Body:</strong>
